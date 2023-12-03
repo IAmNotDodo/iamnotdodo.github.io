@@ -24,6 +24,8 @@ gif.src =
 
 "https://media.tenor.com/jXoTW09cWO0AAAAC/peach-cat-crying.gif"; });
 
+const noBtnRect = noBtn.getBoundingClientRect();
+
 const maxX = window.innerWidth - noBtnRect.width;
 
 const maxY = window.innerHeight - noBtnRect.height;
