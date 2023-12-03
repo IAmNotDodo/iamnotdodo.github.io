@@ -16,9 +16,13 @@ gif.src =
 
 "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp"; });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
+  
+question.innerHTML = "me krai";
 
-const noBtnRect = noBtn.getBoundingClientRect();
+gif.src =
+
+"https://media.tenor.com/jXoTW09cWO0AAAAC/peach-cat-crying.gif"; });
 
 const maxX = window.innerWidth - noBtnRect.width;
 
